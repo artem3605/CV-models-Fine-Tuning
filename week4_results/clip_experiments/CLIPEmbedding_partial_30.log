@@ -1,0 +1,36 @@
+=== Training CLIP Embeddings with strategy: partial_30 ===
+Device: cuda, LR: 1e-05, Batch size: 32, Epochs: 20
+[Partial 30%] Training last 30% of layers: 50,274,304 / 149,620,737 (33.60%)
+[CLIPEmbedding_partial_30] Train Epoch 1: Loss=0.81683, Acc=0.56333
+[CLIPEmbedding_partial_30] Val Epoch 1: Loss=0.58838, Acc=0.70000
+[CLIPEmbedding_partial_30] Train Epoch 2: Loss=0.51289, Acc=0.74667
+[CLIPEmbedding_partial_30] Val Epoch 2: Loss=0.45399, Acc=0.80000
+[CLIPEmbedding_partial_30] Train Epoch 3: Loss=0.40879, Acc=0.81000
+[CLIPEmbedding_partial_30] Val Epoch 3: Loss=0.38061, Acc=0.84444
+[CLIPEmbedding_partial_30] Train Epoch 4: Loss=0.26767, Acc=0.89143
+[CLIPEmbedding_partial_30] Val Epoch 4: Loss=0.41612, Acc=0.84444
+[CLIPEmbedding_partial_30] Train Epoch 5: Loss=0.17197, Acc=0.93143
+[CLIPEmbedding_partial_30] Val Epoch 5: Loss=0.69472, Acc=0.73778
+[CLIPEmbedding_partial_30] Train Epoch 6: Loss=0.12405, Acc=0.95381
+[CLIPEmbedding_partial_30] Val Epoch 6: Loss=0.59115, Acc=0.80667
+[CLIPEmbedding_partial_30] Train Epoch 7: Loss=0.09370, Acc=0.96762
+[CLIPEmbedding_partial_30] Val Epoch 7: Loss=0.45629, Acc=0.86000
+[CLIPEmbedding_partial_30] Train Epoch 8: Loss=0.05109, Acc=0.98190
+[CLIPEmbedding_partial_30] Val Epoch 8: Loss=0.48281, Acc=0.86444
+[CLIPEmbedding_partial_30] Train Epoch 9: Loss=0.05161, Acc=0.98429
+[CLIPEmbedding_partial_30] Val Epoch 9: Loss=0.46735, Acc=0.83556
+[CLIPEmbedding_partial_30] Train Epoch 10: Loss=0.05595, Acc=0.97571
+[CLIPEmbedding_partial_30] Val Epoch 10: Loss=0.57388, Acc=0.84889
+[CLIPEmbedding_partial_30] Train Epoch 11: Loss=0.02871, Acc=0.99143
+[CLIPEmbedding_partial_30] Val Epoch 11: Loss=0.51293, Acc=0.85556
+[CLIPEmbedding_partial_30] Train Epoch 12: Loss=0.02106, Acc=0.99095
+[CLIPEmbedding_partial_30] Val Epoch 12: Loss=0.57810, Acc=0.87333
+[CLIPEmbedding_partial_30] Train Epoch 13: Loss=0.00520, Acc=0.99857
+[CLIPEmbedding_partial_30] Val Epoch 13: Loss=0.75768, Acc=0.86000
+[CLIPEmbedding_partial_30] Early stopping on epoch 13
+
+[CLIPEmbedding_partial_30] Final Test Accuracy: 0.83778
+
+[CLIPEmbedding_partial_30] Model saved to ./checkpoints_clip/CLIPEmbedding_partial_30.pt
+=== Training finished for CLIPEmbedding_partial_30 ===
+

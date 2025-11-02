@@ -20,8 +20,8 @@ def download_remote_and_move_into_project():
         api_key=os.getenv("KAGGLE_KEY", "your_api_key")
     )
 
-    path = kagglehub.dataset_download("harishkumardatalab/food-image-classification-dataset")
     if not os.path.exists("./data"):
+        path = kagglehub.dataset_download("harishkumardatalab/food-image-classification-dataset")
         os.makedirs("./data", exist_ok=True)
         shutil.move(path, "./data")
 
@@ -41,6 +41,5 @@ def get_dataset(image_size: int):
         ) # ImageNet stats
     ])
 
-    download_remote_and_move_into_project()
     dataset = Dataset(ROOT, transform=transforms)
     return dataset

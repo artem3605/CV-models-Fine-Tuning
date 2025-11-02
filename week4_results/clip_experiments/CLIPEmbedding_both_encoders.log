@@ -1,0 +1,36 @@
+=== Training CLIP Embeddings with strategy: both_encoders ===
+Device: cuda, LR: 1e-05, Batch size: 32, Epochs: 20
+[Both Encoders] Training ImageEncoder + TextEncoder: 149,620,737 / 149,620,737 (100.00%)
+[CLIPEmbedding_both_encoders] Train Epoch 1: Loss=0.68429, Acc=0.62333
+[CLIPEmbedding_both_encoders] Val Epoch 1: Loss=0.59866, Acc=0.64444
+[CLIPEmbedding_both_encoders] Train Epoch 2: Loss=0.48871, Acc=0.75238
+[CLIPEmbedding_both_encoders] Val Epoch 2: Loss=0.52448, Acc=0.78667
+[CLIPEmbedding_both_encoders] Train Epoch 3: Loss=0.33106, Acc=0.85619
+[CLIPEmbedding_both_encoders] Val Epoch 3: Loss=0.48211, Acc=0.76889
+[CLIPEmbedding_both_encoders] Train Epoch 4: Loss=0.18289, Acc=0.93095
+[CLIPEmbedding_both_encoders] Val Epoch 4: Loss=0.61379, Acc=0.79778
+[CLIPEmbedding_both_encoders] Train Epoch 5: Loss=0.08995, Acc=0.96714
+[CLIPEmbedding_both_encoders] Val Epoch 5: Loss=0.53941, Acc=0.80667
+[CLIPEmbedding_both_encoders] Train Epoch 6: Loss=0.04849, Acc=0.98476
+[CLIPEmbedding_both_encoders] Val Epoch 6: Loss=1.23804, Acc=0.72889
+[CLIPEmbedding_both_encoders] Train Epoch 7: Loss=0.06862, Acc=0.97571
+[CLIPEmbedding_both_encoders] Val Epoch 7: Loss=0.59713, Acc=0.82444
+[CLIPEmbedding_both_encoders] Train Epoch 8: Loss=0.07032, Acc=0.97571
+[CLIPEmbedding_both_encoders] Val Epoch 8: Loss=0.70582, Acc=0.83333
+[CLIPEmbedding_both_encoders] Train Epoch 9: Loss=0.03182, Acc=0.98810
+[CLIPEmbedding_both_encoders] Val Epoch 9: Loss=0.79446, Acc=0.82889
+[CLIPEmbedding_both_encoders] Train Epoch 10: Loss=0.03709, Acc=0.98762
+[CLIPEmbedding_both_encoders] Val Epoch 10: Loss=0.72721, Acc=0.84000
+[CLIPEmbedding_both_encoders] Train Epoch 11: Loss=0.02297, Acc=0.99000
+[CLIPEmbedding_both_encoders] Val Epoch 11: Loss=0.79927, Acc=0.83556
+[CLIPEmbedding_both_encoders] Train Epoch 12: Loss=0.01040, Acc=0.99571
+[CLIPEmbedding_both_encoders] Val Epoch 12: Loss=1.49809, Acc=0.76667
+[CLIPEmbedding_both_encoders] Train Epoch 13: Loss=0.03480, Acc=0.98714
+[CLIPEmbedding_both_encoders] Val Epoch 13: Loss=0.82297, Acc=0.83778
+[CLIPEmbedding_both_encoders] Early stopping on epoch 13
+
+[CLIPEmbedding_both_encoders] Final Test Accuracy: 0.88000
+
+[CLIPEmbedding_both_encoders] Model saved to ./checkpoints_clip/CLIPEmbedding_both_encoders.pt
+=== Training finished for CLIPEmbedding_both_encoders ===
+

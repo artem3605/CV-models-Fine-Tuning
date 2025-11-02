@@ -1,0 +1,33 @@
+# Configuration for CLIP Embedding-based Classification
+
+# Dataset
+image_size: 224
+
+class_names:
+  - "Taco"
+  - "Baked Potato"
+
+templates:
+  - "a photo of a {}."
+  - "an image of a {}."
+  - "a picture of a {}."
+  - "a {} image."
+
+clip_strategies:
+  - zero_shot
+  - partial_30
+  - both_encoders
+  - image_only
+  - text_and_image
+  - lora
+
+learning_rate: 0.00001
+weight_decay: 0.000005
+batch_size: 32
+patience: 10
+seed: 1337
+
+num_epochs: 20
+mixed_precision: True
+save_checkpoint: True
+checkpoint_path: ./checkpoints_clip

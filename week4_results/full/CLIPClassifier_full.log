@@ -1,0 +1,64 @@
+=== Training started for CLIPClassifier with strategy: full ===
+Device: cuda, LR: 0.0001, Batch size: 50, Epochs: 20
+[Strategy 3] Training all weights: 149,818,115 / 149,818,115 (100.00%)
+[CLIPClassifier] Warning: very low grad mean (8.42e-05)
+[CLIPClassifier] Warning: very low grad mean (9.99e-05)
+[CLIPClassifier] Warning: very low grad mean (6.89e-05)
+[CLIPClassifier] Warning: very low grad mean (6.23e-05)
+[CLIPClassifier] Train Epoch 1: Loss=0.70914, Acc=0.50714
+[CLIPClassifier] Val Epoch 1: Loss=0.69634, Acc=0.52000
+[CLIPClassifier] Warning: very low grad mean (8.81e-05)
+[CLIPClassifier] Warning: very low grad mean (9.00e-05)
+[CLIPClassifier] Warning: very low grad mean (7.15e-05)
+[CLIPClassifier] Train Epoch 2: Loss=0.69735, Acc=0.50238
+[CLIPClassifier] Val Epoch 2: Loss=0.69287, Acc=0.48000
+[CLIPClassifier] Warning: very low grad mean (6.24e-05)
+[CLIPClassifier] Warning: very low grad mean (8.91e-05)
+[CLIPClassifier] Warning: very low grad mean (8.57e-05)
+[CLIPClassifier] Warning: very low grad mean (8.80e-05)
+[CLIPClassifier] Warning: very low grad mean (5.31e-05)
+[CLIPClassifier] Warning: very low grad mean (5.31e-05)
+[CLIPClassifier] Warning: very low grad mean (9.34e-05)
+[CLIPClassifier] Train Epoch 3: Loss=0.68448, Acc=0.55238
+[CLIPClassifier] Val Epoch 3: Loss=0.68582, Acc=0.58889
+[CLIPClassifier] Warning: very low grad mean (6.77e-05)
+[CLIPClassifier] Warning: very low grad mean (6.77e-05)
+[CLIPClassifier] Warning: very low grad mean (7.72e-05)
+[CLIPClassifier] Warning: very low grad mean (8.84e-05)
+[CLIPClassifier] Train Epoch 4: Loss=0.67436, Acc=0.57762
+[CLIPClassifier] Val Epoch 4: Loss=0.61697, Acc=0.69556
+[CLIPClassifier] Train Epoch 5: Loss=0.62817, Acc=0.64714
+[CLIPClassifier] Val Epoch 5: Loss=0.58013, Acc=0.69778
+[CLIPClassifier] Train Epoch 6: Loss=0.55858, Acc=0.71619
+[CLIPClassifier] Val Epoch 6: Loss=0.54264, Acc=0.73333
+[CLIPClassifier] Train Epoch 7: Loss=0.52092, Acc=0.75048
+[CLIPClassifier] Val Epoch 7: Loss=0.54915, Acc=0.69111
+[CLIPClassifier] Train Epoch 8: Loss=0.47913, Acc=0.77000
+[CLIPClassifier] Val Epoch 8: Loss=0.45326, Acc=0.78222
+[CLIPClassifier] Train Epoch 9: Loss=0.43595, Acc=0.80238
+[CLIPClassifier] Val Epoch 9: Loss=0.53177, Acc=0.73556
+[CLIPClassifier] Train Epoch 10: Loss=0.39588, Acc=0.82619
+[CLIPClassifier] Val Epoch 10: Loss=0.62500, Acc=0.72222
+[CLIPClassifier] Train Epoch 11: Loss=0.39191, Acc=0.83095
+[CLIPClassifier] Val Epoch 11: Loss=0.47382, Acc=0.80444
+[CLIPClassifier] Train Epoch 12: Loss=0.32767, Acc=0.85524
+[CLIPClassifier] Val Epoch 12: Loss=0.58898, Acc=0.74889
+[CLIPClassifier] Train Epoch 13: Loss=0.27849, Acc=0.88619
+[CLIPClassifier] Val Epoch 13: Loss=0.52428, Acc=0.78667
+[CLIPClassifier] Train Epoch 14: Loss=0.32201, Acc=0.86143
+[CLIPClassifier] Val Epoch 14: Loss=0.51815, Acc=0.76444
+[CLIPClassifier] Train Epoch 15: Loss=0.23604, Acc=0.90952
+[CLIPClassifier] Val Epoch 15: Loss=0.45152, Acc=0.80000
+[CLIPClassifier] Train Epoch 16: Loss=0.24836, Acc=0.89714
+[CLIPClassifier] Val Epoch 16: Loss=0.48519, Acc=0.82000
+[CLIPClassifier] Train Epoch 17: Loss=0.23284, Acc=0.90524
+[CLIPClassifier] Val Epoch 17: Loss=0.53570, Acc=0.78444
+[CLIPClassifier] Train Epoch 18: Loss=0.23130, Acc=0.91190
+[CLIPClassifier] Val Epoch 18: Loss=0.50326, Acc=0.78667
+[CLIPClassifier] Train Epoch 19: Loss=0.15484, Acc=0.94286
+[CLIPClassifier] Val Epoch 19: Loss=0.48655, Acc=0.80444
+[CLIPClassifier] Train Epoch 20: Loss=0.17633, Acc=0.93000
+[CLIPClassifier] Val Epoch 20: Loss=0.48888, Acc=0.81111
+Accuracy on Test: 0.82889
+=== Training finished for CLIPClassifier ===
+

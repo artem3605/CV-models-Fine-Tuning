@@ -1,0 +1,46 @@
+=== Training started for Eva with strategy: head_only ===
+Device: cuda, LR: 0.0001, Batch size: 50, Epochs: 20
+[Strategy 1] Training only classifier head: 197,378 / 85,838,594 (0.23%)
+[Eva] Train Epoch 1: Loss=0.51078, Acc=0.83952
+[Eva] Val Epoch 1: Loss=0.34188, Acc=0.97111
+[Eva] Train Epoch 2: Loss=0.22153, Acc=0.98143
+[Eva] Val Epoch 2: Loss=0.16135, Acc=0.97111
+[Eva] Train Epoch 3: Loss=0.11531, Acc=0.98476
+[Eva] Val Epoch 3: Loss=0.10556, Acc=0.97556
+[Eva] Train Epoch 4: Loss=0.07662, Acc=0.98524
+[Eva] Val Epoch 4: Loss=0.08180, Acc=0.98000
+[Eva] Train Epoch 5: Loss=0.06024, Acc=0.98619
+[Eva] Val Epoch 5: Loss=0.07048, Acc=0.98000
+[Eva] Train Epoch 6: Loss=0.04911, Acc=0.98762
+[Eva] Val Epoch 6: Loss=0.06447, Acc=0.98222
+[Eva] Train Epoch 7: Loss=0.04141, Acc=0.99143
+[Eva] Val Epoch 7: Loss=0.05806, Acc=0.98000
+[Eva] Train Epoch 8: Loss=0.03778, Acc=0.99095
+[Eva] Val Epoch 8: Loss=0.05427, Acc=0.98000
+[Eva] Train Epoch 9: Loss=0.03347, Acc=0.99048
+[Eva] Val Epoch 9: Loss=0.05054, Acc=0.98000
+[Eva] Train Epoch 10: Loss=0.02963, Acc=0.99190
+[Eva] Val Epoch 10: Loss=0.04909, Acc=0.98222
+[Eva] Train Epoch 11: Loss=0.02642, Acc=0.99143
+[Eva] Val Epoch 11: Loss=0.04615, Acc=0.98222
+[Eva] Train Epoch 12: Loss=0.02614, Acc=0.99143
+[Eva] Val Epoch 12: Loss=0.04531, Acc=0.98222
+[Eva] Train Epoch 13: Loss=0.02349, Acc=0.99476
+[Eva] Val Epoch 13: Loss=0.04306, Acc=0.98444
+[Eva] Train Epoch 14: Loss=0.02173, Acc=0.99381
+[Eva] Val Epoch 14: Loss=0.04201, Acc=0.98222
+[Eva] Train Epoch 15: Loss=0.01997, Acc=0.99714
+[Eva] Val Epoch 15: Loss=0.04204, Acc=0.98222
+[Eva] Train Epoch 16: Loss=0.01999, Acc=0.99571
+[Eva] Val Epoch 16: Loss=0.03874, Acc=0.98000
+[Eva] Train Epoch 17: Loss=0.01704, Acc=0.99667
+[Eva] Val Epoch 17: Loss=0.03972, Acc=0.98444
+[Eva] Train Epoch 18: Loss=0.01725, Acc=0.99667
+[Eva] Val Epoch 18: Loss=0.03850, Acc=0.98222
+[Eva] Train Epoch 19: Loss=0.01597, Acc=0.99810
+[Eva] Val Epoch 19: Loss=0.03587, Acc=0.98222
+[Eva] Train Epoch 20: Loss=0.01459, Acc=0.99810
+[Eva] Val Epoch 20: Loss=0.03700, Acc=0.98222
+Accuracy on Test: 0.98222
+=== Training finished for Eva ===
+

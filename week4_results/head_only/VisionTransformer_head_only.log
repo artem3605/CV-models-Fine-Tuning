@@ -1,0 +1,46 @@
+=== Training started for VisionTransformer with strategy: head_only ===
+Device: cuda, LR: 0.0001, Batch size: 50, Epochs: 20
+[Strategy 1] Training only classifier head: 197,378 / 85,996,034 (0.23%)
+[VisionTransformer] Train Epoch 1: Loss=0.46007, Acc=0.85714
+[VisionTransformer] Val Epoch 1: Loss=0.32294, Acc=0.90000
+[VisionTransformer] Train Epoch 2: Loss=0.24010, Acc=0.92667
+[VisionTransformer] Val Epoch 2: Loss=0.24193, Acc=0.90889
+[VisionTransformer] Train Epoch 3: Loss=0.17899, Acc=0.93857
+[VisionTransformer] Val Epoch 3: Loss=0.22246, Acc=0.91556
+[VisionTransformer] Train Epoch 4: Loss=0.15180, Acc=0.94810
+[VisionTransformer] Val Epoch 4: Loss=0.20454, Acc=0.91111
+[VisionTransformer] Train Epoch 5: Loss=0.13210, Acc=0.95667
+[VisionTransformer] Val Epoch 5: Loss=0.18728, Acc=0.91778
+[VisionTransformer] Train Epoch 6: Loss=0.11331, Acc=0.96000
+[VisionTransformer] Val Epoch 6: Loss=0.18036, Acc=0.92222
+[VisionTransformer] Train Epoch 7: Loss=0.10273, Acc=0.96333
+[VisionTransformer] Val Epoch 7: Loss=0.17393, Acc=0.92222
+[VisionTransformer] Train Epoch 8: Loss=0.09265, Acc=0.97000
+[VisionTransformer] Val Epoch 8: Loss=0.16505, Acc=0.92889
+[VisionTransformer] Train Epoch 9: Loss=0.08167, Acc=0.97524
+[VisionTransformer] Val Epoch 9: Loss=0.15835, Acc=0.93111
+[VisionTransformer] Train Epoch 10: Loss=0.07386, Acc=0.97571
+[VisionTransformer] Val Epoch 10: Loss=0.15403, Acc=0.93111
+[VisionTransformer] Train Epoch 11: Loss=0.06691, Acc=0.98143
+[VisionTransformer] Val Epoch 11: Loss=0.15234, Acc=0.93111
+[VisionTransformer] Train Epoch 12: Loss=0.06279, Acc=0.98190
+[VisionTransformer] Val Epoch 12: Loss=0.15200, Acc=0.93111
+[VisionTransformer] Train Epoch 13: Loss=0.05776, Acc=0.98381
+[VisionTransformer] Val Epoch 13: Loss=0.14697, Acc=0.93556
+[VisionTransformer] Train Epoch 14: Loss=0.05516, Acc=0.98714
+[VisionTransformer] Val Epoch 14: Loss=0.15003, Acc=0.93333
+[VisionTransformer] Train Epoch 15: Loss=0.04834, Acc=0.98857
+[VisionTransformer] Val Epoch 15: Loss=0.14504, Acc=0.93778
+[VisionTransformer] Train Epoch 16: Loss=0.04420, Acc=0.99048
+[VisionTransformer] Val Epoch 16: Loss=0.14645, Acc=0.93556
+[VisionTransformer] Train Epoch 17: Loss=0.04117, Acc=0.99238
+[VisionTransformer] Val Epoch 17: Loss=0.14265, Acc=0.94000
+[VisionTransformer] Train Epoch 18: Loss=0.03837, Acc=0.99429
+[VisionTransformer] Val Epoch 18: Loss=0.14577, Acc=0.93333
+[VisionTransformer] Train Epoch 19: Loss=0.03470, Acc=0.99381
+[VisionTransformer] Val Epoch 19: Loss=0.14731, Acc=0.93333
+[VisionTransformer] Train Epoch 20: Loss=0.03296, Acc=0.99381
+[VisionTransformer] Val Epoch 20: Loss=0.14493, Acc=0.94000
+Accuracy on Test: 0.96000
+=== Training finished for VisionTransformer ===
+

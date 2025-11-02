@@ -1,0 +1,11 @@
+=== Training CLIP Embeddings with strategy: zero_shot ===
+Device: cuda, LR: 1e-05, Batch size: 32, Epochs: 20
+[Zero-Shot] No training - all frozen: 0 / 149,620,737 (0.00%)
+
+[Zero-Shot] Skipping training, evaluating directly...
+
+
+[CLIPEmbedding_zero_shot] Final Test Accuracy: 0.47556
+
+=== Training finished for CLIPEmbedding_zero_shot ===
+

@@ -1,0 +1,46 @@
+=== Training started for ResNet with strategy: head_only ===
+Device: cuda, LR: 0.0001, Batch size: 50, Epochs: 20
+[Strategy 1] Training only classifier head: 525,058 / 58,668,866 (0.89%)
+[ResNet] Train Epoch 1: Loss=0.57891, Acc=0.77143
+[ResNet] Val Epoch 1: Loss=0.47540, Acc=0.84444
+[ResNet] Train Epoch 2: Loss=0.38816, Acc=0.86238
+[ResNet] Val Epoch 2: Loss=0.34117, Acc=0.88222
+[ResNet] Train Epoch 3: Loss=0.29919, Acc=0.89333
+[ResNet] Val Epoch 3: Loss=0.28916, Acc=0.89556
+[ResNet] Train Epoch 4: Loss=0.25626, Acc=0.90714
+[ResNet] Val Epoch 4: Loss=0.24730, Acc=0.92000
+[ResNet] Train Epoch 5: Loss=0.22300, Acc=0.92000
+[ResNet] Val Epoch 5: Loss=0.23184, Acc=0.91556
+[ResNet] Train Epoch 6: Loss=0.20887, Acc=0.92857
+[ResNet] Val Epoch 6: Loss=0.21442, Acc=0.92000
+[ResNet] Train Epoch 7: Loss=0.18755, Acc=0.93143
+[ResNet] Val Epoch 7: Loss=0.20182, Acc=0.93333
+[ResNet] Train Epoch 8: Loss=0.16828, Acc=0.94381
+[ResNet] Val Epoch 8: Loss=0.19412, Acc=0.92667
+[ResNet] Train Epoch 9: Loss=0.16372, Acc=0.93857
+[ResNet] Val Epoch 9: Loss=0.18838, Acc=0.93111
+[ResNet] Train Epoch 10: Loss=0.15646, Acc=0.94476
+[ResNet] Val Epoch 10: Loss=0.17402, Acc=0.93778
+[ResNet] Train Epoch 11: Loss=0.14392, Acc=0.94857
+[ResNet] Val Epoch 11: Loss=0.17132, Acc=0.94000
+[ResNet] Train Epoch 12: Loss=0.13813, Acc=0.95238
+[ResNet] Val Epoch 12: Loss=0.17577, Acc=0.93556
+[ResNet] Train Epoch 13: Loss=0.13071, Acc=0.95048
+[ResNet] Val Epoch 13: Loss=0.17642, Acc=0.93778
+[ResNet] Train Epoch 14: Loss=0.12105, Acc=0.96333
+[ResNet] Val Epoch 14: Loss=0.17042, Acc=0.94444
+[ResNet] Train Epoch 15: Loss=0.11150, Acc=0.96143
+[ResNet] Val Epoch 15: Loss=0.17506, Acc=0.93333
+[ResNet] Train Epoch 16: Loss=0.12079, Acc=0.95810
+[ResNet] Val Epoch 16: Loss=0.16828, Acc=0.94222
+[ResNet] Train Epoch 17: Loss=0.10583, Acc=0.96476
+[ResNet] Val Epoch 17: Loss=0.16588, Acc=0.94000
+[ResNet] Train Epoch 18: Loss=0.09738, Acc=0.97095
+[ResNet] Val Epoch 18: Loss=0.15422, Acc=0.93333
+[ResNet] Train Epoch 19: Loss=0.09343, Acc=0.97048
+[ResNet] Val Epoch 19: Loss=0.15118, Acc=0.94667
+[ResNet] Train Epoch 20: Loss=0.09939, Acc=0.96286
+[ResNet] Val Epoch 20: Loss=0.14969, Acc=0.94444
+Accuracy on Test: 0.90889
+=== Training finished for ResNet ===
+

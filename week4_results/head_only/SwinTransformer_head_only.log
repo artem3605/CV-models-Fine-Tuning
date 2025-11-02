@@ -1,0 +1,46 @@
+=== Training started for SwinTransformer with strategy: head_only ===
+Device: cuda, LR: 0.0001, Batch size: 50, Epochs: 20
+[Strategy 1] Training only classifier head: 197,378 / 49,034,636 (0.40%)
+[SwinTransformer] Train Epoch 1: Loss=0.53557, Acc=0.77238
+[SwinTransformer] Val Epoch 1: Loss=0.33371, Acc=0.91333
+[SwinTransformer] Train Epoch 2: Loss=0.29690, Acc=0.90952
+[SwinTransformer] Val Epoch 2: Loss=0.21931, Acc=0.92000
+[SwinTransformer] Train Epoch 3: Loss=0.22883, Acc=0.92524
+[SwinTransformer] Val Epoch 3: Loss=0.19439, Acc=0.92444
+[SwinTransformer] Train Epoch 4: Loss=0.20100, Acc=0.93333
+[SwinTransformer] Val Epoch 4: Loss=0.17307, Acc=0.93111
+[SwinTransformer] Train Epoch 5: Loss=0.18216, Acc=0.94190
+[SwinTransformer] Val Epoch 5: Loss=0.16608, Acc=0.92889
+[SwinTransformer] Train Epoch 6: Loss=0.16666, Acc=0.94048
+[SwinTransformer] Val Epoch 6: Loss=0.15412, Acc=0.93111
+[SwinTransformer] Train Epoch 7: Loss=0.16167, Acc=0.94143
+[SwinTransformer] Val Epoch 7: Loss=0.14550, Acc=0.93556
+[SwinTransformer] Train Epoch 8: Loss=0.13746, Acc=0.95048
+[SwinTransformer] Val Epoch 8: Loss=0.14227, Acc=0.94222
+[SwinTransformer] Train Epoch 9: Loss=0.13130, Acc=0.95952
+[SwinTransformer] Val Epoch 9: Loss=0.13512, Acc=0.94444
+[SwinTransformer] Train Epoch 10: Loss=0.12805, Acc=0.95810
+[SwinTransformer] Val Epoch 10: Loss=0.13339, Acc=0.94889
+[SwinTransformer] Train Epoch 11: Loss=0.11948, Acc=0.95762
+[SwinTransformer] Val Epoch 11: Loss=0.12462, Acc=0.94222
+[SwinTransformer] Train Epoch 12: Loss=0.11802, Acc=0.95905
+[SwinTransformer] Val Epoch 12: Loss=0.13193, Acc=0.95333
+[SwinTransformer] Train Epoch 13: Loss=0.11967, Acc=0.95714
+[SwinTransformer] Val Epoch 13: Loss=0.11867, Acc=0.94667
+[SwinTransformer] Train Epoch 14: Loss=0.10666, Acc=0.96048
+[SwinTransformer] Val Epoch 14: Loss=0.12393, Acc=0.95333
+[SwinTransformer] Train Epoch 15: Loss=0.10839, Acc=0.95952
+[SwinTransformer] Val Epoch 15: Loss=0.11058, Acc=0.95333
+[SwinTransformer] Train Epoch 16: Loss=0.10530, Acc=0.96429
+[SwinTransformer] Val Epoch 16: Loss=0.11592, Acc=0.95333
+[SwinTransformer] Train Epoch 17: Loss=0.10337, Acc=0.95905
+[SwinTransformer] Val Epoch 17: Loss=0.10766, Acc=0.95333
+[SwinTransformer] Train Epoch 18: Loss=0.09290, Acc=0.96524
+[SwinTransformer] Val Epoch 18: Loss=0.10889, Acc=0.95333
+[SwinTransformer] Train Epoch 19: Loss=0.09813, Acc=0.96238
+[SwinTransformer] Val Epoch 19: Loss=0.11069, Acc=0.96000
+[SwinTransformer] Train Epoch 20: Loss=0.09218, Acc=0.97190
+[SwinTransformer] Val Epoch 20: Loss=0.11335, Acc=0.94889
+Accuracy on Test: 0.94444
+=== Training finished for SwinTransformer ===
+

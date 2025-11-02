@@ -7,7 +7,8 @@ import matplotlib.pyplot as plt
 from torchvision.datasets import VisionDataset
 
 from prepare_dataset import get_dataset
-from models import models
+from models import models, apply_training_strategy
+import copy
 
 # Constants
 TRAIN_SPLIT = 0.7
@@ -37,15 +38,16 @@ def training_pipeline(
     num_epochs: int,
     mixed_precision: bool,
     save_path: str,
-    save: bool = False
+    save: bool = False,
+    training_strategy: str = "full"
 ):
     model_name = model.__class__.__name__
 
-    log_path = os.path.join(TRAINING_LOGS_DIR, f"{model_name}.log")
+    log_path = os.path.join(TRAINING_LOGS_DIR, f"{model_name}_{training_strategy}.log")
     ensure_dir(TRAINING_LOGS_DIR)
 
     with open(log_path, "w", buffering=1) as log_file, redirect_stdout(log_file):
-        print(f"=== Training started for {model_name} ===")
+        print(f"=== Training started for {model_name} with strategy: {training_strategy} ===")
         print(f"Device: {device}, LR: {lr}, Batch size: {batch_size}, Epochs: {num_epochs}")
 
         # Dataset split
@@ -62,9 +64,13 @@ def training_pipeline(
         val_loader = torch.utils.data.DataLoader(val_dataset, batch_size=batch_size, shuffle=False, pin_memory=True)
         test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=batch_size, shuffle=False, pin_memory=True)
 
-        # Model setup
         model = model.to(device)
-        optimizer = torch.optim.Adam(model.parameters(), lr=lr, weight_decay=weight_decay)
+        model = apply_training_strategy(model, training_strategy)
+
+        # Only optimize parameters that require gradients
+        trainable_params = [p for p in model.parameters() if p.requires_grad]
+        optimizer = torch.optim.Adam(trainable_params, lr=lr, weight_decay=weight_decay)
+
         criterion = torch.nn.CrossEntropyLoss()
         scaler = torch.amp.GradScaler("cuda") if (mixed_precision and device == "cuda") else None
 
@@ -213,11 +219,16 @@ if __name__ == "__main__":
 
     results = {}
 
+    training_strategy = config["training_strategy"]
 
     for model in models:
-        print(f"\n=== Training {model.__class__.__name__} ===\n")
-        results[model.__class__.__name__] = training_pipeline(
-            model,
+        model_copy = copy.deepcopy(model)
+
+        print(f"\n=== Training {model_copy.__class__.__name__} ===\n")
+        model_key = f"{model_copy.__class__.__name__}_{training_strategy}"
+
+        results[model_key] = training_pipeline(
+            model_copy,
             dataset,
             device,
             config["learning_rate"],
@@ -227,7 +238,8 @@ if __name__ == "__main__":
             config["num_epochs"],
             config["mixed_precision"],
             config["checkpoint_path"],
-            config["save_checkpoint"]
+            config["save_checkpoint"],
+            training_strategy
         )
 
     # Plot results

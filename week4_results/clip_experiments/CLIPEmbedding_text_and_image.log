@@ -1,0 +1,34 @@
+=== Training CLIP Embeddings with strategy: text_and_image ===
+Device: cuda, LR: 1e-05, Batch size: 32, Epochs: 20
+[Both Encoders] Training ImageEncoder + TextEncoder: 149,620,737 / 149,620,737 (100.00%)
+[CLIPEmbedding_text_and_image] Train Epoch 1: Loss=0.72004, Acc=0.57048
+[CLIPEmbedding_text_and_image] Val Epoch 1: Loss=0.60791, Acc=0.67111
+[CLIPEmbedding_text_and_image] Train Epoch 2: Loss=0.54946, Acc=0.71333
+[CLIPEmbedding_text_and_image] Val Epoch 2: Loss=0.49434, Acc=0.75778
+[CLIPEmbedding_text_and_image] Train Epoch 3: Loss=0.38742, Acc=0.81905
+[CLIPEmbedding_text_and_image] Val Epoch 3: Loss=0.61760, Acc=0.73778
+[CLIPEmbedding_text_and_image] Train Epoch 4: Loss=0.22142, Acc=0.91190
+[CLIPEmbedding_text_and_image] Val Epoch 4: Loss=0.84468, Acc=0.65778
+[CLIPEmbedding_text_and_image] Train Epoch 5: Loss=0.12027, Acc=0.95810
+[CLIPEmbedding_text_and_image] Val Epoch 5: Loss=0.65193, Acc=0.78667
+[CLIPEmbedding_text_and_image] Train Epoch 6: Loss=0.09117, Acc=0.96476
+[CLIPEmbedding_text_and_image] Val Epoch 6: Loss=0.66058, Acc=0.84222
+[CLIPEmbedding_text_and_image] Train Epoch 7: Loss=0.09684, Acc=0.96143
+[CLIPEmbedding_text_and_image] Val Epoch 7: Loss=0.66880, Acc=0.81333
+[CLIPEmbedding_text_and_image] Train Epoch 8: Loss=0.03872, Acc=0.98571
+[CLIPEmbedding_text_and_image] Val Epoch 8: Loss=0.83763, Acc=0.79778
+[CLIPEmbedding_text_and_image] Train Epoch 9: Loss=0.02872, Acc=0.98810
+[CLIPEmbedding_text_and_image] Val Epoch 9: Loss=0.78107, Acc=0.83556
+[CLIPEmbedding_text_and_image] Train Epoch 10: Loss=0.01145, Acc=0.99714
+[CLIPEmbedding_text_and_image] Val Epoch 10: Loss=0.73054, Acc=0.85111
+[CLIPEmbedding_text_and_image] Train Epoch 11: Loss=0.04370, Acc=0.98429
+[CLIPEmbedding_text_and_image] Val Epoch 11: Loss=1.13122, Acc=0.75111
+[CLIPEmbedding_text_and_image] Train Epoch 12: Loss=0.02463, Acc=0.99333
+[CLIPEmbedding_text_and_image] Val Epoch 12: Loss=0.85620, Acc=0.82000
+[CLIPEmbedding_text_and_image] Early stopping on epoch 12
+
+[CLIPEmbedding_text_and_image] Final Test Accuracy: 0.87111
+
+[CLIPEmbedding_text_and_image] Model saved to ./checkpoints_clip/CLIPEmbedding_text_and_image.pt
+=== Training finished for CLIPEmbedding_text_and_image ===
+

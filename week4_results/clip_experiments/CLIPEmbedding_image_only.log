@@ -1,0 +1,40 @@
+=== Training CLIP Embeddings with strategy: image_only ===
+Device: cuda, LR: 1e-05, Batch size: 32, Epochs: 20
+[Image Only] Training ImageEncoder only: 85,799,424 / 149,620,737 (57.34%)
+[CLIPEmbedding_image_only] Train Epoch 1: Loss=0.70638, Acc=0.58333
+[CLIPEmbedding_image_only] Val Epoch 1: Loss=0.72645, Acc=0.59333
+[CLIPEmbedding_image_only] Train Epoch 2: Loss=0.60621, Acc=0.67952
+[CLIPEmbedding_image_only] Val Epoch 2: Loss=0.52725, Acc=0.72444
+[CLIPEmbedding_image_only] Train Epoch 3: Loss=0.43881, Acc=0.78857
+[CLIPEmbedding_image_only] Val Epoch 3: Loss=0.87163, Acc=0.67111
+[CLIPEmbedding_image_only] Train Epoch 4: Loss=0.25783, Acc=0.88762
+[CLIPEmbedding_image_only] Val Epoch 4: Loss=0.39856, Acc=0.82222
+[CLIPEmbedding_image_only] Train Epoch 5: Loss=0.15727, Acc=0.94000
+[CLIPEmbedding_image_only] Val Epoch 5: Loss=0.39747, Acc=0.82889
+[CLIPEmbedding_image_only] Train Epoch 6: Loss=0.11088, Acc=0.96000
+[CLIPEmbedding_image_only] Val Epoch 6: Loss=0.56832, Acc=0.81111
+[CLIPEmbedding_image_only] Train Epoch 7: Loss=0.08994, Acc=0.96857
+[CLIPEmbedding_image_only] Val Epoch 7: Loss=0.55965, Acc=0.83333
+[CLIPEmbedding_image_only] Train Epoch 8: Loss=0.05130, Acc=0.98286
+[CLIPEmbedding_image_only] Val Epoch 8: Loss=0.50543, Acc=0.81333
+[CLIPEmbedding_image_only] Train Epoch 9: Loss=0.04575, Acc=0.98762
+[CLIPEmbedding_image_only] Val Epoch 9: Loss=0.48860, Acc=0.84222
+[CLIPEmbedding_image_only] Train Epoch 10: Loss=0.01086, Acc=0.99667
+[CLIPEmbedding_image_only] Val Epoch 10: Loss=0.62692, Acc=0.85778
+[CLIPEmbedding_image_only] Train Epoch 11: Loss=0.01933, Acc=0.99238
+[CLIPEmbedding_image_only] Val Epoch 11: Loss=0.60767, Acc=0.82889
+[CLIPEmbedding_image_only] Train Epoch 12: Loss=0.02709, Acc=0.98952
+[CLIPEmbedding_image_only] Val Epoch 12: Loss=0.84225, Acc=0.82222
+[CLIPEmbedding_image_only] Train Epoch 13: Loss=0.02730, Acc=0.99048
+[CLIPEmbedding_image_only] Val Epoch 13: Loss=0.57787, Acc=0.85111
+[CLIPEmbedding_image_only] Train Epoch 14: Loss=0.02089, Acc=0.99429
+[CLIPEmbedding_image_only] Val Epoch 14: Loss=0.71844, Acc=0.82667
+[CLIPEmbedding_image_only] Train Epoch 15: Loss=0.01408, Acc=0.99476
+[CLIPEmbedding_image_only] Val Epoch 15: Loss=0.78684, Acc=0.82889
+[CLIPEmbedding_image_only] Early stopping on epoch 15
+
+[CLIPEmbedding_image_only] Final Test Accuracy: 0.83778
+
+[CLIPEmbedding_image_only] Model saved to ./checkpoints_clip/CLIPEmbedding_image_only.pt
+=== Training finished for CLIPEmbedding_image_only ===
+

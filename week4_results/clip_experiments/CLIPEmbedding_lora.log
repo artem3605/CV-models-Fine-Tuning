@@ -1,0 +1,46 @@
+=== Training CLIP Embeddings with strategy: lora ===
+Device: cuda, LR: 1e-05, Batch size: 32, Epochs: 20
+[LoRA] Training with LoRA (r=64, alpha=64): 17,842,176 / 167,462,913 (10.65%)
+[CLIPEmbedding_lora] Train Epoch 1: Loss=0.75217, Acc=0.57000
+[CLIPEmbedding_lora] Val Epoch 1: Loss=0.65601, Acc=0.64000
+[CLIPEmbedding_lora] Train Epoch 2: Loss=0.56285, Acc=0.71143
+[CLIPEmbedding_lora] Val Epoch 2: Loss=0.59189, Acc=0.73111
+[CLIPEmbedding_lora] Train Epoch 3: Loss=0.46058, Acc=0.78048
+[CLIPEmbedding_lora] Val Epoch 3: Loss=0.52106, Acc=0.74000
+[CLIPEmbedding_lora] Train Epoch 4: Loss=0.38322, Acc=0.81524
+[CLIPEmbedding_lora] Val Epoch 4: Loss=0.45959, Acc=0.78667
+[CLIPEmbedding_lora] Train Epoch 5: Loss=0.32141, Acc=0.86238
+[CLIPEmbedding_lora] Val Epoch 5: Loss=0.45531, Acc=0.82000
+[CLIPEmbedding_lora] Train Epoch 6: Loss=0.26993, Acc=0.88429
+[CLIPEmbedding_lora] Val Epoch 6: Loss=0.40008, Acc=0.82444
+[CLIPEmbedding_lora] Train Epoch 7: Loss=0.22170, Acc=0.91048
+[CLIPEmbedding_lora] Val Epoch 7: Loss=0.42407, Acc=0.82667
+[CLIPEmbedding_lora] Train Epoch 8: Loss=0.18416, Acc=0.93000
+[CLIPEmbedding_lora] Val Epoch 8: Loss=0.39463, Acc=0.83778
+[CLIPEmbedding_lora] Train Epoch 9: Loss=0.16582, Acc=0.93714
+[CLIPEmbedding_lora] Val Epoch 9: Loss=0.45897, Acc=0.82889
+[CLIPEmbedding_lora] Train Epoch 10: Loss=0.10922, Acc=0.96238
+[CLIPEmbedding_lora] Val Epoch 10: Loss=0.40127, Acc=0.84889
+[CLIPEmbedding_lora] Train Epoch 11: Loss=0.09927, Acc=0.96333
+[CLIPEmbedding_lora] Val Epoch 11: Loss=0.54014, Acc=0.81111
+[CLIPEmbedding_lora] Train Epoch 12: Loss=0.07535, Acc=0.97476
+[CLIPEmbedding_lora] Val Epoch 12: Loss=0.46601, Acc=0.86222
+[CLIPEmbedding_lora] Train Epoch 13: Loss=0.04387, Acc=0.99000
+[CLIPEmbedding_lora] Val Epoch 13: Loss=0.48891, Acc=0.85111
+[CLIPEmbedding_lora] Train Epoch 14: Loss=0.03172, Acc=0.99381
+[CLIPEmbedding_lora] Val Epoch 14: Loss=0.46633, Acc=0.84222
+[CLIPEmbedding_lora] Train Epoch 15: Loss=0.02989, Acc=0.99476
+[CLIPEmbedding_lora] Val Epoch 15: Loss=0.51374, Acc=0.84222
+[CLIPEmbedding_lora] Train Epoch 16: Loss=0.01502, Acc=0.99810
+[CLIPEmbedding_lora] Val Epoch 16: Loss=0.53541, Acc=0.85778
+[CLIPEmbedding_lora] Train Epoch 17: Loss=0.00951, Acc=0.99905
+[CLIPEmbedding_lora] Val Epoch 17: Loss=0.60809, Acc=0.84889
+[CLIPEmbedding_lora] Train Epoch 18: Loss=0.00777, Acc=0.99952
+[CLIPEmbedding_lora] Val Epoch 18: Loss=0.65742, Acc=0.86222
+[CLIPEmbedding_lora] Early stopping on epoch 18
+
+[CLIPEmbedding_lora] Final Test Accuracy: 0.83778
+
+[CLIPEmbedding_lora] Model saved to ./checkpoints_clip/CLIPEmbedding_lora.pt
+=== Training finished for CLIPEmbedding_lora ===
+

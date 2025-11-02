@@ -8,6 +8,9 @@ batch_size: 50
 patience: 10
 seed: 1337
 
+# Training Strategy
+training_strategy: "full"
+
 # train
 num_epochs: 20
 mixed_precision: True
